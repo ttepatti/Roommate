@@ -22,13 +22,6 @@
         android:layout_marginBottom="8dp"
         android:visibility="gone" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="82dp"
-        app:srcCompat="@drawable/templogo"
-        android:layout_marginBottom="100dp"
-        android:layout_marginTop="-151dp"
-        android:id="@+id/imageView" />
 
     <ScrollView
         android:id="@+id/login_form"
@@ -41,6 +34,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/templogo"
+                android:layout_marginBottom="100dp"
+                android:id="@+id/imageView" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
