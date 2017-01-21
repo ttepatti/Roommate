@@ -1,20 +1,17 @@
-<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Split - Sign Up</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html><head>
+		<title>Split - Login</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css">
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+	<style type="text/css">
+:root #header + #content > #left > #rlblock_left,
+:root #content > #center > .dose > .dosesingle,
+:root #content > #right > .dose > .dosesingle
+{ display: none !important; }</style></head>
+	<body class="">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -22,26 +19,26 @@
 					<h1 id="logo"><a href="index.html">Split</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
+							<li style="white-space: nowrap;"><a href="index.html">Home</a></li>
+							<li style="-moz-user-select: none; cursor: pointer; white-space: nowrap;" class="opener">
 								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
+								
+							<ul style="-moz-user-select: none; display: none; position: absolute;" class="">
+									<li style="white-space: nowrap;"><a href="left-sidebar.html" style="display: block;">Left Sidebar</a></li>
+									<li style="white-space: nowrap;"><a href="right-sidebar.html" style="display: block;">Right Sidebar</a></li>
+									<li style="white-space: nowrap;"><a href="no-sidebar.html" style="display: block;">No Sidebar</a></li>
+									<li style="-moz-user-select: none; cursor: pointer; white-space: nowrap;" class="opener">
+										<a href="#" style="display: block;">Submenu</a>
+										<ul style="-moz-user-select: none; display: none; position: absolute;" class="dropotron">
+											<li style="white-space: nowrap;"><a href="#" style="display: block;">Option 1</a></li>
+											<li style="white-space: nowrap;"><a href="#" style="display: block;">Option 2</a></li>
+											<li style="white-space: nowrap;"><a href="#" style="display: block;">Option 3</a></li>
+											<li style="white-space: nowrap;"><a href="#" style="display: block;">Option 4</a></li>
 										</ul>
 									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button special">Sign Up</a></li>
+								</ul></li>
+							<li style="white-space: nowrap;"><a href="elements.html">Elements</a></li>
+							<li style="white-space: nowrap;"><a href="#" class="button special">Sign Up</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -50,67 +47,28 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Sign Up Today!</h2>
-							<p></p>
+							<h2>Log in here!</h2>
 						</header>
-
-										<section>
-				
-								<h3>Sign Up Form</h3>
+						<section>
 								<form method="post" action="#">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)">
-											<input name="name" id="name" value="" placeholder="Name" type="text">
+											<input name="username" id="username" value="" placeholder="Username" type="text">
 										</div>
 										<div class="6u$ 12u$(xsmall)">
-											<input name="email" id="email" value="" placeholder="Email" type="email">
-										</div>
-										<div class="12u$">
-											<div class="select-wrapper">
-												<select name="category" id="category">
-													<option value="">- Category -</option>
-													<option value="1">Question</option>
-													<option value="1">Comment</option>
-													<option value="1">Tech Support</option>
-													<option value="1">Love Letters <3</option>
-												</select>
-											</div>
-										</div>
-										<div class="4u 12u$(medium)">
-											<input id="priority-low" name="priority" checked="" type="radio">
-											<label for="priority-low">Low Priority</label>
-										</div>
-										<div class="4u 12u$(medium)">
-											<input id="priority-normal" name="priority" type="radio">
-											<label for="priority-normal">Normal Priority</label>
-										</div>
-										<div class="4u$ 12u$(medium)">
-											<input id="priority-high" name="priority" type="radio">
-											<label for="priority-high">High Priority</label>
-										</div>
-										<div class="6u 12u$(medium)">
-											<input id="copy" name="copy" type="checkbox">
-											<label for="copy">Email me a copy of this message</label>
-										</div>
-										<div class="6u$ 12u$(medium)">
-											<input id="human" name="human" checked="" type="checkbox">
-											<label for="human">I am a human and not a robot</label>
-										</div>
-										<div class="12u$">
-											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+											<input name="password" id="password" value="" placeholder="Password" type="password">
 										</div>
 										<div class="12u$">
 											<ul class="actions">
-												<li><input value="Send Message" class="special" type="submit"></li>
-												<li><input value="Reset" type="reset"></li>
+												<li><input value="Submit" class="special" type="submit"></li>
 											</ul>
 										</div>
 									</div>
 								</form>
 							</section>
-					</div>
-				</div>
+						
 
+						
 
 			<!-- Footer -->
 				<footer id="footer">
@@ -118,7 +76,7 @@
 						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>© Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 
@@ -134,5 +92,18 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
-	</body>
-</html>
+	
+<ul style="-moz-user-select: none; display: none; position: absolute; z-index: 1000;" class="dropotron level-0">
+									<li style="white-space: nowrap;"><a href="left-sidebar.html" style="display: block;">Left Sidebar</a></li>
+									<li style="white-space: nowrap;"><a href="right-sidebar.html" style="display: block;">Right Sidebar</a></li>
+									<li style="white-space: nowrap;"><a href="no-sidebar.html" style="display: block;">No Sidebar</a></li>
+									<li style="-moz-user-select: none; cursor: pointer; white-space: nowrap;" class="opener">
+										<a href="#" style="display: block;">Submenu</a>
+										<ul style="-moz-user-select: none; display: none; position: absolute; z-index: 1001;" class="dropotron level-1">
+											<li style="white-space: nowrap;"><a href="#" style="display: block;">Option 1</a></li>
+											<li style="white-space: nowrap;"><a href="#" style="display: block;">Option 2</a></li>
+											<li style="white-space: nowrap;"><a href="#" style="display: block;">Option 3</a></li>
+											<li style="white-space: nowrap;"><a href="#" style="display: block;">Option 4</a></li>
+										</ul>
+									</li>
+								</ul><div id="titleBar"><a href="#navPanel" class="toggle"></a><span class="title"><a href="index.html">Split</a></span></div><div id="navPanel"><nav><a class="link depth-0" href="index.html"><span class="indent-0"></span>Home</a><a class="link depth-0" href="#"><span class="indent-0"></span>Layouts</a><a class="link depth-1" href="left-sidebar.html"><span class="indent-1"></span>Left Sidebar</a><a class="link depth-1" href="right-sidebar.html"><span class="indent-1"></span>Right Sidebar</a><a class="link depth-1" href="no-sidebar.html"><span class="indent-1"></span>No Sidebar</a><a class="link depth-1" href="#"><span class="indent-1"></span>Submenu</a><a class="link depth-2" href="#"><span class="indent-2"></span>Option 1</a><a class="link depth-2" href="#"><span class="indent-2"></span>Option 2</a><a class="link depth-2" href="#"><span class="indent-2"></span>Option 3</a><a class="link depth-2" href="#"><span class="indent-2"></span>Option 4</a><a class="link depth-0" href="elements.html"><span class="indent-0"></span>Elements</a><a class="link depth-0" href="#"><span class="indent-0"></span>Sign Up</a></nav></div></body></html>
