@@ -22,8 +22,8 @@ public class UserDB {
 		userList.add(lindsey);
 	}
 	
-	public List<User> retrieveAllUsers(List<User> users){
-		return users;
+	public List<User> retrieveAllUsers(){
+		return userList;
 	}
 	
 	public User retrieveUserById(int id){
