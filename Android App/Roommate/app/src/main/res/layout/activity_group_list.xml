@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_group_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.spartahack.roommate.GroupList">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="@string/group_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/groupListHeader"
+                android:layout_marginBottom="10dp"
+                android:textSize="34sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:text="@string/roommates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/roommates"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textSize="30sp"
+
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:text="@string/brunch_buddies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/brunchbuddies"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textSize="30sp"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:text="@string/add_another"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_another"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textSize="30sp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

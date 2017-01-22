@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/your_profile" />
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@drawable/ic_menu_groups"
+            android:title="@string/groups" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_menu_dollars"
+            android:title="@string/payment_history" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/settings" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_menu_faq"
+                android:title="@string/faq" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_contact"
+                android:title="@string/contact_us" />
+        </menu>
+    </item>
+
+</menu>

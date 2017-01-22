@@ -47,4 +47,15 @@
     <string name="communicate">Communicate</string>
     <string name="faq">FAQ</string>
     <string name="contact_us">Contact Us</string>
+    <string name="title_activity_brunch_buddies">BrunchBuddiesActivity</string>
+
+    <string name="brunch_buddies">Brunch Buddies</string>
+    <string name="expenses_monthly2">$46</string>
+    <string name="expenses_paid2">$40</string>
+    <string name="brunchbuddy1_name">Tim Tepatti</string>
+    <string name="brunchbuddy2_name">Shane Combs</string>
+
+    <string name="group_list">Group List</string>
+    <string name="roommates">Roommates</string>
+    <string name="add_another">Add Another!</string>
 </resources>
