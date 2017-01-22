@@ -19,4 +19,18 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="your_roommates">Your Roommates</string>
+
+    <string name="roommate1_name">Jack Parent</string>
+    <string name="roommate1_lastseen">Last Online 1/21/2017</string>
+
+    <string name="roommate2_name">Lindsay Nichols</string>
+    <string name="roommate2_lastseen">Last Online 1/20/2017</string>
+
+    <string name="expenses">Expenses</string>
+    <string name="expenses_monthly_text">This Month:</string>
+    <string name="expenses_paid_text">Amount Paid: </string>
+    <string name="expenses_monthly">$204</string>
+    <string name="expenses_paid">$150</string>
 </resources>
